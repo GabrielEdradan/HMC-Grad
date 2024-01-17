@@ -6,7 +6,7 @@ HMC-Grad is a tool designed to automate the grading process of handwritten multi
 
 ## Features
 
-- **No Need for Specialized Hardware:** HMC-Grad eliminates the requirement for specialized hardware like OMR scanners, allowing accessibility through common devices such as smartphones equipped with a camera.
+- **No Specialized Hardware:** HMC-Grad eliminates the requirement for specialized hardware like OMR scanners, allowing accessibility through common devices such as smartphones equipped with a camera.
 
 - **Simplified Answer Sheet Requirements:** Removing the need for custom printed answer sheets, HMC-Grad processes answers on standard yellow notepads.
 
@@ -30,7 +30,7 @@ HMC-Grad is a tool designed to automate the grading process of handwritten multi
 
 4. Upload your correction key and the images of the answer sheets into the respective input fields. The system can handle any number of image inputs.
 
-5. Download the result you need.
+5. Download the results you need.
 
 ## License
 
