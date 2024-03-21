@@ -2,15 +2,15 @@
 
 ## Overview
 
-HMC-Grad is a tool designed to automate the grading process of handwritten multiple-choice tests. It uses a Convolutional Neural Network (CNN) trained in PyTorch on the EMNIST dataset and OpenCV for image processing. The tool comes with a Gradio interface for easy interaction. 
+HMC-Grad is a tool designed to automate the grading process of handwritten multiple-choice tests. It uses a Convolutional Neural Network (CNN) trained in PyTorch on the EMNIST dataset and OpenCV for image processing. The tool comes with a Gradio interface for ease of use. 
 
 ## Features
 
-- **No Specialized Hardware:** HMC-Grad eliminates the requirement for specialized hardware like OMR scanners, allowing accessibility through common devices such as smartphones equipped with a camera.
+- **No Specialized Hardware:** HMC-Grad eliminates the requirement for specialized hardware like OMR scanners, allowing automation through common devices such as smartphones.
 
 - **Simplified Answer Sheet Requirements:** Removing the need for custom printed answer sheets, HMC-Grad processes answers on standard yellow notepads.
 
-- **Automated Grading:** Input a correction key (as a string of text) and the images (JPG) of the answer sheets, and HMC-Grad will provide the correctness and score for each one.
+- **Automated Grading:** Input a correction key (as a string of text) and the images (JPG) of the answer sheets, and HMC-Grad will provide the correctness and score for each one, as well as grading annotations.
 
 - **Item and Score Analysis:** Obtain detailed item-wise analysis along with an overall score analysis.
 
@@ -31,6 +31,14 @@ HMC-Grad is a tool designed to automate the grading process of handwritten multi
 4. Upload your correction key and the images of the answer sheets into the respective input fields. The system can handle any number of image inputs.
 
 5. Download the results you need.
+
+## Usage on Hugging Face Spaces
+
+1. Open the [hugging face space](https://gabrieledradan-hmc-grad.hf.space) link.
+
+2. Upload the correction key and the answer sheet images.
+
+3. Download the results.
 
 ## License
 
